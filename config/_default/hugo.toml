@@ -9,14 +9,14 @@ theme = [
   "FixIt",
   "shortcode-docs-bookmark"
 ]
-defaultContentLanguage = "en"
-languageCode = "en"
+defaultContentLanguage = "ja"
+languageCode = "ja-JP"
 hasCJKLanguage = true
 enableRobotsTXT = true
 enableEmoji = true
 enableGitInfo = true
 relativeURLs = false
 buildDrafts = false
-summaryLength = 150
+summaryLength = 5
 # ignore some build errors
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]

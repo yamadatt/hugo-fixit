@@ -23,24 +23,24 @@ enablePWA = false
 # FixIt 0.2.14 | NEW whether to add external Icon for external links automatically
 externalIcon = false
 # FixIt 0.3.13 | NEW whether to capitalize titles
-capitalizeTitles = true
+capitalizeTitles = false
 # FixIt 0.3.0 | NEW whether to add site title to the title of every page
 # remember to set up your site title in `hugo.toml` (e.g. title = "title")
-withSiteTitle = true
+withSiteTitle = false
 # FixIt 0.3.0 | NEW title delimiter when the site title is be added to the title of every page
 titleDelimiter = "-"
 # FixIt 0.3.0 | NEW whether to add site subtitle to the title of index page
 # remember to set up your site subtitle by `params.header.subtitle.name`
 indexWithSubtitle = false
 # FixIt 0.3.13 | NEW whether to show summary in plain text
-summaryPlainify = false
+summaryPlainify = true
 # FixIt 0.2.14 | NEW FixIt will, by default, inject a theme meta tag in the HTML head on the home page only.
 # You can turn it off, but we would really appreciate if you don’t, as this is a good way to watch FixIt's popularity on the rise.
 disableThemeInject = false
 
 # Author Configuration
 [author]
-  name = "Lruihao"
+  name = "yamadatt"
   email = "1024@lruihao.cn"
   link = "https://github.com/Lruihao"
   avatar = ""
@@ -63,7 +63,7 @@ disableThemeInject = false
   # whether to omit favicon resource links
   noFavicon = false
   # modern SVG favicon to use in place of older style .png and .ico files
-  svgFavicon = ""
+  svgFavicon = "favicon.svg"
   # Safari mask icon color
   iconColor = "#5bbad5"
   # Windows v8-10 tile color
@@ -115,7 +115,7 @@ disableThemeInject = false
   # Header title config
   [header.title]
     # URL of the LOGO
-    logo = "/hugo-fixit-starter1/images/fixit.min.svg"
+    logo = "icon.png"
     # title name
     name = ""
     # you can add extra information before the name (HTML format is supported), such as icons
@@ -217,7 +217,7 @@ disableThemeInject = false
 
 # FixIt 0.3.13 | NEW recently updated pages config for archives, section and term list
 [recentlyUpdated]
-  archives = true
+  archives = false
   section = true
   list = true
   days = 30
